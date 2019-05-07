@@ -1,0 +1,112 @@
+html {
+    background:#EDDBCD;
+}
+
+.container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.carousel-inner
+{
+    margin-top: 85px;
+}
+
+/*img {
+  width: auto;
+  height: 60%;
+  float: left;
+}*/
+
+.category
+{
+    color:#EDDBCD;
+    font-family: Impact;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+.category:hover{
+  color: #000000;
+}
+
+.col-md-7 ul
+{
+    margin-left: -23px;
+    margin-top: -18px;
+}
+
+.col-md-7 h2
+{
+  font-family: Impact;
+  font-weight: bold;  
+}
+
+.col-md-7 h3
+{
+  margin-bottom: 40px; 
+}
+
+
+.col-md-7 b
+{
+    color:#C06014;
+    font-family: Impact;
+    font-weight: bold;
+    font-size:16px;
+    padding-top: 100px;
+}
+
+.col-md-7 label
+{
+    font-family: Impact;
+    font-weight: bold; 
+    font-size:16px;
+}
+
+input
+{
+    border:1px solid #CDCDCD;
+    font-weight:bold;
+    height:33px;
+    text-align: center;
+    width:30px;
+}
+/*.cart 
+{
+    background-color:#EDDBCD;
+    color:#C06014;
+    border: none;
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cart {border-radius: 12px;}
+.cart:hover{
+    color: black
+}*/
+.square_btn {
+    position: relative;
+    display: inline-block;
+    font-family: Impact;
+    font-weight: bold;
+    padding: 3px 10px 0px 10px;
+    color: #C06014;
+    background: #EDDBCD;
+    border-bottom: solid 4px #C06014;
+    /*border-radius: 15px 15px 0 0;*/
+    margin-left: 20px;
+    transition: .4s;
+}
+
+.square_btn:hover {
+    background: #C06014;
+    color: #FFF;
+}
